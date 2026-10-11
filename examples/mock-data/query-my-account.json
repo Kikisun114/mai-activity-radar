@@ -1,0 +1,13 @@
+{
+  "_note": "模拟数据（示例），字段与官方 query-my-account 返回对齐（availablePoint/currentMouthExpirePoint/nextMouthExpirePoint 等）；数值为演示用，非真实账户数据。",
+  "account": {
+    "availablePoint": "2850",
+    "accumulativePoint": "12000",
+    "currency": "麦享会积分",
+    "currentMouthExpirePoint": "200",
+    "nextMouthExpirePoint": "0",
+    "expiredPoint": "0",
+    "frozenPoint": "0",
+    "usedPoint": "9150"
+  }
+}

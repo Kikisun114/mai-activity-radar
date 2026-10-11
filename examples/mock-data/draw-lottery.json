@@ -1,0 +1,15 @@
+{
+  "_note": "模拟数据（示例）：draw-lottery 的一次返回结果示意；字段与官方返回结构对齐，实际以官方 MCP 实时返回为准。",
+  "result": {
+    "success": true,
+    "code": 200,
+    "message": "请求成功",
+    "data": {
+      "won": false,
+      "prizeName": null,
+      "costPoints": 24,
+      "remainingPoints": 2826,
+      "message": "未中奖，再接再厉！"
+    }
+  }
+}

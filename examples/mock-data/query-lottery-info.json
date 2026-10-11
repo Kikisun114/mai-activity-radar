@@ -1,0 +1,36 @@
+{
+  "_note": "模拟数据（示例），字段与官方 query-lottery-info 返回对齐（status/drawPoint/drawTypeText/drawDecision/prizes 等）；数值为演示用，非真实账户数据。",
+  "lottery": {
+    "status": {
+      "code": "SUCCESS",
+      "message": "成功"
+    },
+    "activityCode": "dtx2",
+    "activityStatusText": "进行中",
+    "activityName": "麦麦积分抽奖",
+    "beginTime": "2025-01-26 00:00:00",
+    "endTime": "2030-12-31 23:59:59",
+    "drawPoint": "24",
+    "drawTypeText": "消耗积分抽奖",
+    "availableTimes": 10,
+    "availablePoint": "2850",
+    "drawDecision": {
+      "resourceEligible": true,
+      "reason": null,
+      "nextConsumption": {
+        "type": "POINTS",
+        "points": "24",
+        "chances": 0,
+        "text": "本次将消耗 24 积分"
+      }
+    },
+    "prizes": [
+      {"name": "下单立减3元券", "typeText": "优惠券"},
+      {"name": "下单立减2元券", "typeText": "优惠券"},
+      {"name": "下单立减1元券", "typeText": "优惠券"},
+      {"name": "麦辣三件套5折券", "typeText": "优惠券"},
+      {"name": "麦旋风5折券", "typeText": "优惠券"},
+      {"name": "30积分", "typeText": "积分奖"}
+    ]
+  }
+}
